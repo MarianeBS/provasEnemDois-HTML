@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="imagem/png" href="img/icon.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>S.O.S ENEM</title>
+    </head>
+<body style="background-color: #dcdcdc;">
+    <div class="container text-center" style="background-color: #FFFFFF">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">S.O.S ENEM</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">1º Bimestre</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                2º Bimestre
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="two.html">Meus Resultados</a></li>
+                                    <li><a class="dropdown-item" href="three.html">Calcular Resultados</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Tarefa 2º Bimestre — Provas do ENEM</h1>
+                <h2>Consulta de Classificação</h2>
+                        <p class="paragraph"><strong>1.)</strong> Escolha uma das duas provas e, de acordo com as quantidades de A's, B's e C's 
+                            que você possui, utilize as três tabelas abaixo para marcar e situar-se sobre sua classificação em cada respectiva 
+                            letra: </p>
+                <div class="row">   
+                    <div class="col-md-6 centered">
+                        <table class="table">
+                            <thead class="back-table">
+                                <tr>
+                                    <th colspan="2">Quantidade de A's</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider border">
+                                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                        <tr>
+                                            <td>
+                                                De 0 a 28
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                                                <label class="btn btn-outline-danger" for="btncheck1">A-</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                De 29 a 31
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                                                <label class="btn btn-outline-danger" for="btncheck2">A + ou -</label>
+                                            </td>
+                                        </tr>  
+                                        <tr>
+                                            <td>
+                                                De 32 a 60
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                                                <label class="btn btn-outline-danger" for="btncheck3">A-</label>
+                                            </td>
+                                        </tr>          
+                                    </div>    
+                            </tbody>   
+                        </table>    
+                    </div>
+                    <div class="col-md-6 centered">
+                        <table class="table">
+                            <thead class="back-table">
+                                <tr>
+                                    <th colspan="2">Quantidade de B's</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider border">
+                                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                        <tr>
+                                            <td>
+                                                De 0 a 28
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                                                <label class="btn btn-outline-success" for="btncheck4">B-</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                De 29 a 31
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                                                <label class="btn btn-outline-success" for="btncheck5">B + ou -</label>
+                                            </td>
+                                        </tr>  
+                                        <tr>
+                                            <td>
+                                                De 32 a 60
+                                            </td>    
+                                            <td>  
+                                                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                                                <label class="btn btn-outline-success" for="btncheck6">B-</label>
+                                            </td>
+                                        </tr>          
+                                    </div>    
+                            </tbody>   
+                        </table>    
+                    </div>
+                </div> 
+                <div class="col-md-6 centered">
+                    <table class="table">
+                        <thead class="back-table">
+                            <tr>
+                                <th colspan="2">Quantidade de C's</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider border">
+                                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                    <tr>
+                                        <td>
+                                            De 0 a 28
+                                        </td>    
+                                        <td>  
+                                            <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                                            <label class="btn btn-outline-dark" for="btncheck7">C-</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            De 29 a 31
+                                        </td>    
+                                        <td>  
+                                            <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                                            <label class="btn btn-outline-dark" for="btncheck8">C + ou -</label>
+                                        </td>
+                                    </tr>  
+                                    <tr>
+                                        <td>
+                                            De 32 a 60
+                                        </td>    
+                                        <td>  
+                                            <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+                                            <label class="btn btn-outline-dark" for="btncheck9">C-</label>
+                                        </td>
+                                    </tr>          
+                                </div>    
+                        </tbody>   
+                    </table>  
+                    </br>     
+                </div> 
+                <h2>Calcular Classificação</h2>
+                <p class="paragraph"><strong>2.)</strong> Agora que já sabe sua classificação em cada respectiva letra, utilize a calculadora abaixo para chegar na numeração de um acordeão que lhe apresentará o seu diagnóstico. Você deve utilizá-la da seguinte forma:
+                </p>
+                <p class="paragraph-two">— Insira sua classificação em A utilizando os botões A+, A+- ou A-. Aperte apenas um dos três e surgirá no visor da calculadora um número correspondente;</p>
+                <p class="paragraph-two">— Aperte no botão de soma (+);</p>
+                <p class="paragraph-two">— Insira sua classificação em B utilizando os botões B+, B+- ou B-. Aperte apenas um dos três e surgirá no visor da calculadora um número correspondente;</p>
+                <p class="paragraph-two">— Aperte no botão de soma (+) novamente;</p>
+                <p class="paragraph-two">— Insira sua classificação em C utilizando os botões C+, C+- ou C-. Aperte apenas um dos três e surgirá no visor da calculadora um número correspondente;</p>
+                <p class="paragraph-two">— Aperte no botão de igualdade (=);</p>
+                <p class="paragraph-two">— Acaso as regras acima tenham sido seguidas pontualmente, você chegou em um número correspondente ao acordeão que apresentará seu diagnóstico.</p>
+                </br>
+                <div class="row">   
+                    <div class="col-md-7 centered">
+                        <div class="calculadora calculator">
+                            <h3>Calculadora</h3>
+                            <div class="table-responsive">
+                                <table class="table tabela">
+                                    <tr>
+                                        <p id="resultado"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="button-calculator" onclick="insert('1')">A+</button></td>
+                                        <td><button class="button-calculator" onclick="insert('2')">A+-</button></td>
+                                        <td><button class="button-calculator" onclick="insert('3')">A-</button></td>
+                                        <td><button class="button-calculator" onclick="clean()">DEL</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button class="button-calculator" onclick="insert('4')">B+</button></td>
+                                        <td><button class="button-calculator" onclick="insert('5')">B+-</button></td>
+                                        <td><button class="button-calculator" onclick="insert('6')">B-</button></td>
+                                        <td><button class="button-calculator" onclick="insert('+')">+</button></td>
+                                    </tr> 
+                                    <tr>
+                                        <td><button class="button-calculator" onclick="insert('7')">C+</button></td>
+                                        <td><button class="button-calculator" onclick="insert('8')">C+-</button></td>
+                                        <td><button class="button-calculator" onclick="insert('9')">C-</button></td>
+                                        <td><button class="button-calculator" onclick="calcular()">=</button></td>
+                                    </tr>   
+                                </table>
+                            </div>
+                        </div>    
+                    </div>    
+                </div>
+                </br>
+                <h2>Consultar Diagnóstico</h2>
+                <p class="paragraph"><strong>3.)</strong> Alguns resultados chegam à mesma numeração, e, por esse motivo, alguns acordeões correspondem ao mesmo valor numérico. Entretanto, os conteúdos </br> são diferentes. Então se o número de sua classificação possui mais de um acordeão, divirta-se verificando outros resultados também até que encontre o seu.</p>
+                <div class="row">   
+                    <div class="col-md-5 centered">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <strong>12</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+ B+ C+</strong></br><strong>11º Lugar - Péssimo:</strong> É preciso pegar B's e C's e estudar pelas apostilas a teoria e fazer exercícios (de forma repetida).</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <strong>13¹</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+ B+- C+</strong></br><strong>10º Lugar - Ruim:</strong> É preciso pegar B's e C's e estudar pelas apostilas a teoria e fazer exercícios.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFifteen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+                                        <strong>13²</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+- B+ C+</strong></br><strong>13º Lugar - Pior Cenário Imaginável:</strong> Faça um cursinho.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <strong>14¹</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+ B+- C+-</strong></br><strong>3º Lugar - De Bom Para Melhor:</strong> Foco nos B's (entendê-los bem).</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        <strong>14²</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+- B+- C+</strong></br><strong>12º Lugar - Estado Crítico:</strong> É preciso pegar C's e B's e estudar pelas apostilas e canais da internet a teoria e fazer exercícios (de forma repetida).</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFourteen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+                                        <strong>14³</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A- B+ C+</strong></br><strong>15º Lugar - Tragédia:</strong> Reforço escolar básico e um cursinho depois.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <strong>15¹</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+ B- C+-</strong></br><strong>2º Lugar - Abaixo do Melhor Possível:</strong> Foco em Transformar B's em A's.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                        <strong>15²</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+- B+- C+-</strong></br><strong>6º Lugar - Na Média:</strong> Foco em diminuir C's (entendê-los bem).</div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-5 centered">
+                        <div class="accordion accordion-flush" id="accordionFlushExampleTwo">       
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                        <strong>15³</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A- B+- C+</strong></br><strong>14º Lugar - Pior Cenário Possível:</strong> Reforço escolar médio e um cursinho depois.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                                        <strong>16¹</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+ B- C-</strong></br><strong>1º Lugar - O Melhor Cenário possível:</strong> Trabalho de Manutenção.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingNine">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                        <strong>16²</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+- B- C+-</strong></br><strong>5º Lugar - De Bom Para Razoável:</strong> Foco em transformar C's em B's.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                                        <strong>16³</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A- B+- C+- </strong></br><strong>9º Lugar - O Começo do Ruim:</strong> Se divida entre diminuir C's e entender B's.</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingEleven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                                        <strong>17¹</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A+- B- C-</strong></br><strong>4º Lugar - Apenas Bom:</strong> Foco nos B's (isole os assuntos e estude-os).</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwelve">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                        <strong>17²</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A- B- C+-</strong></br><strong>8º Lugar - De Razoável Para Baixo:</strong> Se divida entre diminuir C's e aumentar B's.</div>
+                                </div>
+                            </div> 
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThirteen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+                                        <strong>18</strong>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"><strong>A- B- C-</strong></br><strong>7º Lugar - Apenas Razoável:</strong> Foco em diminuir C's (isole os assuntos e estude-os).</div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <h2>Definir Dados para Verificação do Tamanho da Chance</h2>
+                <p class="paragraph"><strong>1.)</strong> Classifique sua inteligência e sua resiliência de acordo com os números abaixo:
+                <div class="row"> 
+                    </p>
+                    <div class="col-md-6 centered">
+                        <table class="table">
+                            <thead class="back-table">
+                                <tr>
+                                    <th colspan="5">Números para 1ª Classificação</th>
+                                </tr>
+                                <tr>
+                                    <th>Inteligência</th>
+                                    <th>Resiliência</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider border">
+                                <tr>
+                                    <td>30</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>60</td>
+                                    <td>60</td>
+                                </tr>
+                                <tr>
+                                    <td>90</td>
+                                    <td>90</td>
+                                </tr>  
+                                <tr>
+                                    <td>120</td>
+                                    <td>120</td>
+                                </tr>  
+                                <tr>
+                                    <td>150</td>
+                                    <td>150</td>
+                                </tr>
+                            </tbody>   
+                        </table>    
+                    </div>
+                </div>
+                <p class="paragraph"><strong>2.)</strong> Escolha o curso que deseja realizar e qual a instituição que gostaria de frequentar:
+                <div class="row"> 
+                    <div class="col-md-6 centered">
+                        <table class="table">
+                            <thead class="back-table">
+                                <tr>
+                                    <th colspan="5">Números para 2ª Classificação</th>
+                                </tr>
+                                <tr>
+                                    <th>Numeração</th>
+                                    <th>Curso</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider border">
+                                <tr>
+                                    <td>20</td>
+                                    <td>Licenciaturas</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>Letras, Pedagogia, História</td>
+                                </tr>
+                                <tr>
+                                    <td>60</td>
+                                    <td>Matemática, Biologia, Logística</td>
+                                </tr>  
+                                <tr>
+                                    <td>80</td>
+                                    <td>Áudio Visual, Rádio & TV, COMEX</td>
+                                </tr>  
+                                <tr>
+                                    <td>100</td>
+                                    <td>Publicidade, Design, Administração, outro</td>
+                                </tr>
+                                <tr>
+                                    <td>120</td>
+                                    <td>Economia, Contábeis</td>
+                                </tr>
+                                <tr>
+                                    <td>140</td>
+                                    <td>Farmácia, Jornalismo, Computação</td>
+                                </tr>
+                                <tr>
+                                    <td>160</td>
+                                    <td>Psicologia, Direito, Arquitetura</td>
+                                </tr>
+                                <tr>
+                                    <td>180</td>
+                                    <td>Engenharia, Biomedicina, Odontologia</td>
+                                </tr>
+                                <tr>
+                                    <td>200</td>
+                                    <td>Medicina</td>
+                                </tr>
+                            </tbody>   
+                        </table>    
+                    </div>
+                    <div class="col-md-6 centered">
+                        <table class="table">
+                            <thead class="back-table">
+                                <tr>
+                                    <th colspan="5">Números para 2ª Classificação</th>
+                                </tr>
+                                <tr>
+                                    <th>Numeração</th>
+                                    <th>Instituição</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider border">
+                                <tr>
+                                    <td>20</td>
+                                    <td>Privada, pouco renomada, bolsa de 50%</td>
+                                </tr>
+                                <tr>
+                                    <td>40</td>
+                                    <td>Privada, pouco renomada, bolsa de 100%</td>
+                                </tr>
+                                <tr>
+                                    <td>60</td>
+                                    <td>Privada, meio renomada, bolsa de 50%</td>
+                                </tr>  
+                                <tr>
+                                    <td>80</td>
+                                    <td>Privada, meio renomada, bolsa de 100% </td>
+                                </tr>  
+                                <tr>
+                                    <td>100</td>
+                                    <td>FATEC, Instituto UFABC, institutos federais, outra</td>
+                                </tr>
+                                <tr>
+                                    <td>120</td>
+                                    <td>PUC, Mackenzie, instituições privadas renomadas, bolsa 50% </td>
+                                </tr>
+                                <tr>
+                                    <td>140</td>
+                                    <td>PUC, Mackenzie, instituições privadas renomadas, bolsa 100%</td>
+                                </tr>
+                                <tr>
+                                    <td>160</td>
+                                    <td>Universidades Federais</td>
+                                </tr>
+                                <tr>
+                                    <td>180</td>
+                                    <td>Unicamp, ITA, IME</td>
+                                </tr>
+                                <tr>
+                                    <td>200</td>
+                                    <td>USP</td>
+                                </tr>
+                            </tbody>   
+                        </table>    
+                    </div>
+                </div>    
+                <p class="paragraph"><strong>3.)</strong> Vamos calcular o valor de X, que se trata da soma de sua resiliência e de sua inteligência e o de Y, que se trata do curso e instituição que você deseja. Insira os números correspondentes às suas escolhas em cada campo abaixo:</p>
+                <div class="row">
+                    <div class="col-md-3 centered">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: black; color: white;">Resiliência:</span>
+                            <input id="num1" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>  
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: black; color: white;">Inteligência:</span>
+                            <input id="num2" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>  
+                        <button type="button" onclick="clicar()" class="btn btn-dark">Calcular</button>  
+                        </br>
+                        </br>
+                        <div class="col-md-3 centered">      
+                            <button id="result" type="button" class="btn btn-secondary">Valor X</button>
+                        </div>
+                    </div> 
+
+                    <div class="col-md-3 centered">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: black; color: white;">Curso:</span>
+                            <input id="num3" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>  
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: black; color: white;">Instituição:</span>
+                            <input id="num4" type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>  
+                        <button type="button" onclick="clicardois()" class="btn btn-dark">Calcular</button>  
+                        </br>
+                        </br>
+                        <div class="col-md-3 centered">      
+                            <button id="res" type="button" class="btn btn-secondary">Valor Y</button>
+                        </div>
+                    </div>          
+                </div>  
+                </br>  
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="paragraph"><strong>4.)</strong> Agora, observe a reta abaixo e veja o quão longe você (X) está de seu objetivo (Y):</p>
+                    </div>
+                    <img src="./img/reta-two.png">
+                </div>   
+                
+               
+                
+            </div>
+        </div>
+        <div class="row">
+           
+            <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark" data-bs-theme="dark">
+                <div class="container-fluid justify-content-md-center">
+                    <a class="navbar-brand">Desenvolvido por: Mariane Souza</a>
+                </div>
+            </nav>
+        </div>         
+    </div>
+ 
+    <!-- Incluindo o Chart JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/calculator.js"></script>
+    
+    
+</body>
+</html>

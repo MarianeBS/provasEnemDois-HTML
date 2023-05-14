@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.paragraph-two {
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px;
+    margin-left: 35px;
+}
+
+.bold {
+    font-style: bold;
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin-top: 18px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+th {
+    font-size: 16px;
+    color: white;
+}
+
+.back-table {
+    background-color: black;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.image {
+    width: 70%;
+    height: 70%;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.classification {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.calculator {
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 15px;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-calculator {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(81, 81, 81);
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 30%;
+    margin: 2px;
+}
+
+.button-calculator:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#resultado {
+    width: 265px;
+    height: 37px;
+    margin: 5px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    border: black;
+}
+
+.tabela {
+    border: black;
+}
